@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image-Gallery</title>
+    <link
+      rel="icon"
+      href="images/camera_sign_icon_flat_black_white_contrasted_sketch_6921741.webp"
+      type="image/webp"
+    />
+    <link rel="stylesheet" href="image.css" />
+  </head>
+  <body>
+    <div class="gallery-container">
+      <div class="gallery">
+        <img
+          src="images/photo-1551496168-239c45c2cfd0.avif"
+          alt="Image 1"
+          data-category="nature"
+        />
+        <img
+          src="images/photo-1574090009360-8b21565b32e8.avif"
+          alt="Image 2"
+          data-category="city"
+        />
+        <img
+          src="images/photo-1589048996338-04c7910c7502.avif"
+          alt="Image 3"
+          data-category="nature"
+        />
+        <img
+          src="images/photo-1634029450658-1e03987c8032.avif"
+          alt="Image 4"
+          data-category="nature"
+        />
+        <img
+          src="images/photo-1635194969502-2c654769afa3.avif"
+          alt="Image 5"
+          data-category="nature"
+        />
+        <img
+          src="images/photo-1648498030239-edd068c4d34d.avif"
+          alt="Image 6"
+          data-category="nature"
+        />
+        <img
+          src="images/photo-1666389785207-79fd9a364761.avif"
+          alt="Image 7"
+          data-category="nature"
+        />
+        <img
+          src="images/premium_photo-1672423154405-5fd922c11af2.avif"
+          alt="Image 8"
+          data-category="city"
+        />
+        <img
+          src="images/premium_photo-1666672388644-2d99f3feb9f1.avif"
+          alt="Image 9"
+          data-category="nature"
+        />
+      </div>
+      <div class="lightbox" id="lightbox">
+        <div class="nav-buttons">
+          <button class="prev-btn">Prev</button>
+          <button class="next-btn">Next</button>
+        </div>
+        <img src="" alt="" id="lightbox-img" />
+        <button class="close-btn">Close</button>
+      </div>
+      <div class="filter-buttons">
+        <button class="filter-btn" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="nature">Nature</button>
+        <button class="filter-btn" data-filter="city">City</button>
+      </div>
+    </div>
+
+    <script src="image.js"></script>
+  </body>
+</html>
