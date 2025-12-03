@@ -37,9 +37,7 @@ The gallery uses **9 images**, all stored inside the `/images` folder.
 
 ## 🔗 Live Demo
 
-> live demo link here once deployed  
-> Example:  
-> `https://your-demo-link.com`
+> [Live Demo](https://noftyfootie.github.io/CodeAlpha_Image_Gallery/)
 
 ---
 
@@ -155,4 +153,4 @@ You are free to use and modify it.
 ✍️ Author
 
 NoftyDev
-( GitHub profile, portfolio, or social links if you want)
+GitHub Handle: NoftyFootie
