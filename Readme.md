@@ -37,7 +37,7 @@ The gallery uses **9 images**, all stored inside the `/images` folder.
 
 ## 🔗 Live Demo
 
-> [Live Demo](https://noftyfootie.github.io/CodeAlpha_Image_Gallery/image.html)
+> [Live Demo](https://noftyfootie.github.io/CodeAlpha_Image_Gallery/)
 
 ---
 
@@ -59,45 +59,32 @@ The gallery uses **9 images**, all stored inside the `/images` folder.
 
 ## 📂 Folder Structure
 
-image-gallery/
-│
-├── images/  
-│ ├── img1.jpg # Gallery image 1
-│ ├── img2.jpg # Gallery image 2
-│ ├── img3.jpg # Gallery image 3
-│ ├── img4.jpg # Gallery image 4
-│ ├── img5.jpg # Gallery image 5
-│ ├── img6.jpg # Gallery image 6
-│ ├── img7.jpg # Gallery image 7
-│ ├── img8.jpg # Gallery image 8
-│ ├── img9.jpg # Gallery image 9
-│ ├── camera_sign_icon_flat_black_white_contrasted_sketch_6921741.webp # Title icon / favicon
-│ └── readme_screenshot.png # Screenshot for README
-│
-├── image.html # Main HTML file (entry point)
-├── image.css # CSS stylesheet for layout & responsiveness
-├── image.js # JavaScript for lightbox, navigation & filtering
-├── README.md # Project documentation
+| File / Folder                  | Type   | Description                           |
+| ------------------------------ | ------ | ------------------------------------- |
+| `images/`                      | Folder | Contains all gallery images and icons |
+| `images/img1.jpg`              | Image  | Gallery image 1                       |
+| `images/img2.jpg`              | Image  | Gallery image 2                       |
+| `images/img3.jpg`              | Image  | Gallery image 3                       |
+| `images/img4.jpg`              | Image  | Gallery image 4                       |
+| `images/img5.jpg`              | Image  | Gallery image 5                       |
+| `images/img6.jpg`              | Image  | Gallery image 6                       |
+| `images/img7.jpg`              | Image  | Gallery image 7                       |
+| `images/img8.jpg`              | Image  | Gallery image 8                       |
+| `images/img9.jpg`              | Image  | Gallery image 9                       |
+| `images/camera_sign_icon.webp` | Image  | Title icon / favicon                  |
+| `images/readme_screenshot.png` | Image  | Screenshot for README                 |
 
 ---
 
 ## ⚙️ Installation & Setup
 
-### Option 1 — Clone the Repository
-
-```bash
-git clone <your-repository-link>
-cd image-gallery
-open image.html
-```
-
-Option 2 — Download ZIP
+### Option 1 — Download ZIP
 
 Download the project ZIP
 
 Extract all files
 
-Open image.html in your browser
+Open index.html in your browser
 
 ▶️ How It Works
 
@@ -116,7 +103,7 @@ Add More Images
 
 Add new images to /images folder
 
-Add new <img> elements in image.html
+Add new <img> elements index.html
 
 Assign category classes such as city or nature
 
@@ -128,7 +115,7 @@ Update grid layout, hover effects, transitions, etc.
 
 Add New Filters
 
-Add new buttons in image.html
+Add new buttons in index.html
 
 Update filtering logic in image.js
 
