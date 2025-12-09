@@ -78,7 +78,7 @@ The gallery uses **9 images**, all stored inside the `/images` folder.
 
 ## ⚙️ Installation & Setup
 
-### Option 1 — Download ZIP
+### Option — Download ZIP
 
 Download the project ZIP
 
